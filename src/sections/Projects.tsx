@@ -80,7 +80,7 @@ export const ProjectsSection = () => {
                 <a href={project.link}>
                   <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-8 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
                     <span>Visit Live Site</span>
-                    <ArrowUpRightIcon className='size-4' />
+                    <ArrowUpRightIcon className='size-4 ' />
                   </button>
                 </a>
               </div>
