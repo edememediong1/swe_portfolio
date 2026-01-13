@@ -9,13 +9,14 @@ const words = [
   "User Friendly",
   "Maintainable", 
   "Search Optimized",
+  "Responsive",
   "Usable",
   "Reliable"
 ]
 
 export const TapeSection = () => {
-  return <section className="py-16">
-    <div className="bg-gradient-to-r from-emerald-300 to-sky-400 overflow-x-clip -rotate-3 -mx-1">
+  return <section className="py-16 lg:py-24 overflow-x-clip">
+    <div className="bg-gradient-to-r from-emerald-300 to-sky-400  -rotate-3 -mx-1">
       <div className="flex" style={{maskImage: 'linear-gradient(to_right,transparent,black_10%, black_90%, transparent'}}>
         <div className="flex flex-none gap-4 py-3">
           { words.map((word) => {
